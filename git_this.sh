@@ -11,7 +11,7 @@ if [ "$#" -eq "1" ]
         git commit -am "$1"
 
 
-        num=$(git pull | grep -a -c "Already")
+        num=$(git pull | grep -a -c "Already up-to-date")
 
         echo $num
 
