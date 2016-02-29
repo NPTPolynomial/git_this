@@ -15,7 +15,7 @@ then run:
 
 This will:
 
-1. Pull previous changes to remote to your local branch
+1. Pull previous changes from remote to your local branch
 2. Commits your current changes
 3. If no problems, push everything up.
 4. Done!
